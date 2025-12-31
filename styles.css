@@ -1,0 +1,28 @@
+#first-div, #first-section {
+    border: solid 2px black;
+    padding: 10px;
+    margin: 10px 5px;
+    width: 350px;
+}
+
+#cat-img, #cat-gif {
+    width: 300px;
+}
+
+.CSS {
+    padding: 10px;
+}
+
+.css-heading {
+    background-color: hsl(210, 100%, 5%);
+    padding: 20px;
+    margin: 10px;
+    display: block;
+    text-align: center;
+    color: beige;
+    font-family: monospace;
+}
+
+.css-heading h1 {
+    font-size: 25px;
+}
