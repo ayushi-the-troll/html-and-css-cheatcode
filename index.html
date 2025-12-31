@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>html and css cheatcode</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>THE HTML and CSS cheatcode</h1>
+
+        <p>this is the header element</p>
+        <p>it typically contains *surprise* headers</p>
+        <p>there are 6 levels of headers</p>
+        <h1>this is h1</h1>
+        <h2>this is h2</h2>
+        <h3>this is h3</h3>
+
+        <p>...and so it goes</p>
+    </header>
+
+    <main>
+        <p>this is the start of the main element. no visual difference, right?</p>
+        <p>that's because we haven't choosen to define borders and paddings and such (yet)</p>
+        <p>but if we want to define a separate section...</p>
+
+        <div id="first-div">
+            <p>this is the start of the div element</p>
+            <p>using CSS we have separated this a bit from the above text</p>
+        </div>
+
+        <section id="first-section">
+            <p>we can also start a new section element</p>
+            <p>virtually, there's no difference between this and a div element, but using this element is more semantically appropriate.</p>
+        </section>
+
+        <p>we can also include images in our web page:</p>
+        <img id='cat-img' src="https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2pvYjcyNy0yNDAteC5qcGc.jpg"/>
+
+        <p>gifs can be added too:</p>
+        <img id="cat-gif" src="https://i.pinimg.com/originals/e2/9e/1a/e29e1a7bcce0269e79cc7430d7736ee0.gif"/>
+
+        <p>and so can videos!</p>
+        <video controls width="300" poster="poster.jpg">
+            <source src="video.mp4" type="video/mp4" />
+            <source src="video.webm" type="video/webm" />
+            Your browser does not support the video tag.
+        </video>
+
+        <p>you can do audios as well but i can't seem to find a safe download of the nyan cat sound so sorry about that lol</p>
+
+        <section class="CSS">
+            <div class="css-heading">
+                <h1>Now this is the CSS Section</h1>
+                <p>isn't this so much prettier? let's start from the basics</p>
+            </div>
+
+            <div class="">
+                <p>CSS elements can be styled in HTML</p>
+                <p style="font-style: italic;">This is italic</p>
+                <p style="font-weight: bold;">This is bold</p>
+
+                <p>but they can (and should) also be styled in a separate STYLESHEET</p>
+                <p>remember the div element and section element from before? those were styled in the stylesheet for this website called styles.css</p>
+                <p>so was the heading for the CSS section</p>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
